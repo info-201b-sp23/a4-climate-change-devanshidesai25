@@ -4,7 +4,7 @@ library("plotly")
 # Define UI for application
 
 # Load data
-climate_change_data <- read.csv("~/Desktop/climate_change_data.csv")
+climate_change_data <- read.csv("~/Desktop/info201/assignments/a4-climate-change-devanshidesai25/climate_change_data.csv")
 
 # User Interface
 my_ui <-  navbarPage(

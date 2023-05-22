@@ -3,7 +3,7 @@ library("ggplot2")
 library("plotly")
 
 
-climate_change_data <- read.csv("~/Desktop/climate_change_data.csv")
+climate_change_data <- read.csv("~/Desktop/info201/assignments/a4-climate-change-devanshidesai25/climate_change_data.csv")
 
 ##SUMMARY VARIABLES
 #include information only about india, china, and united states
