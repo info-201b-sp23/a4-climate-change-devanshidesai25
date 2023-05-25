@@ -30,7 +30,7 @@ my_server <- function(input, output, session) {
            x = "Year",
            y = "Emissions")
     
-    return(ggplotly(oil_emissions, tooltip = "text"))
+    return(ggplotly(oil_emissions))
   })
   
 }
